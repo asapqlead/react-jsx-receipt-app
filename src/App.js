@@ -5,7 +5,7 @@ import './App.css';
 // Sample receipt data
 const receiptData = {
   store: {
-    name: "React Grocery Mart",
+    name: "AUPP Supermarket",
     address: "#278H, Street 201R, Kroalkor Village, Sangkat Kilometer 6, Khan Russey Keo, Phnom Penh, Cambodia",
     phone: "(555) 123-4567",
     date: "July 16, 2026 — 9:30 AM",
