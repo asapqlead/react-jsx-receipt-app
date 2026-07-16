@@ -1,5 +1,5 @@
 /* ================================================
-   React JSX Receipt — App Styles
+   React JSX Receipt — Styles
    ================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
@@ -19,6 +19,12 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 40px 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'JetBrains Mono', source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 /* ---- App Container ---- */
@@ -58,7 +64,7 @@ body {
 }
 
 /* Torn-edge top effect */
-.receipt::before {
+/* .receipt::before {
   content: '';
   position: absolute;
   top: -10px;
@@ -68,10 +74,10 @@ body {
   background: linear-gradient(135deg, #fffef8 33.33%, transparent 33.33%),
               linear-gradient(225deg, #fffef8 33.33%, transparent 33.33%);
   background-size: 12px 10px;
-}
+} */
 
 /* Torn-edge bottom effect */
-.receipt::after {
+/* .receipt::after {
   content: '';
   position: absolute;
   bottom: -10px;
@@ -81,13 +87,14 @@ body {
   background: linear-gradient(45deg, #fffef8 33.33%, transparent 33.33%),
               linear-gradient(-45deg, #fffef8 33.33%, transparent 33.33%);
   background-size: 12px 10px;
-}
+} */
 
 @keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -258,13 +265,13 @@ body {
   letter-spacing: 0.5px;
 }
 
-.receipt-barcode {
+/* .receipt-barcode {
   font-size: 1.6rem;
   letter-spacing: 3px;
   color: #1a1a2e;
   margin-top: 10px;
   user-select: none;
-}
+} */
 
 /* ---- Responsive ---- */
 @media (max-width: 440px) {

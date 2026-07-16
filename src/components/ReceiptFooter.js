@@ -25,7 +25,6 @@ function ReceiptFooter({ subtotal, taxRate, taxAmount, total, paymentMethod, car
       </div>
       <div className="receipt-thank-you">
         <p>Thank you for your purchase!</p>
-        <p className="receipt-barcode">||||| |||| ||||| |||| |||||</p>
       </div>
     </div>
   );
